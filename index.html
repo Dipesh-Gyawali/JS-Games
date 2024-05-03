@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      // yahoo baba(rest operator, spread operator,object literals)
+
+      //   ------------------rest operator--------------//
+      // function sum(name, age, ...args) {
+      //   console.log(arguments);
+
+      //   let sum = 0;
+
+      //   for (let i in args) {
+      //     sum = sum + args[i];
+      //   }
+      //   console.log(`name: ${name},age:${age}, sum:${sum}`);
+      // }
+
+      // sum("Dipesh", "22", 20, 30, 40);
+      // sum("Ram", "25", 80, 30, 40);
+
+      // ------------------------spread operator---------------------------
+
+      // 1)
+
+      // function sum(name, ...args) { //rest operator
+      //   console.log(arguments)
+      //   let sum = 0;
+      //   for (let i in args) {
+      //     sum = sum + args[i];
+      //   }
+      //   console.log(name);
+      //   console.log(sum);
+      // }
+      // let arr = [10, 20, 30];
+      // sum("Dipesh", ...arr);    //spread operator
+
+      // 2)
+      // var arr = [10,20,30,40];
+      // console.log(arr);           //output: [10,20,30,40]
+
+      // 3)
+      //  var arr = [10,20,30,40];
+      // console.log(...arr);  //output: 10 20 30 40
+
+      // 4)copy gareko
+      //  var arr = [10,20,30,40];
+      // console.log([...arr]);  //output: [10,20,30,40]
+
+      // 5)
+      // var arr1 = [10,20,30,40];
+      // var arr2 = arr1
+      // console.log(arr2)
+
+      // 6)
+      // var arr1 = [10,20,30,40];
+
+      // var arr2 = arr1
+
+      // arr1.push(50)
+
+      // console.log(arr1)
+      // console.log(arr2)
+
+      // 7) most imp.......copy gareko
+      // var arr1 = [10,20,30,40];
+
+      // var arr2 = [...arr1]
+
+      // arr1.push(50)
+
+      // console.log(arr1)
+      // console.log(arr2)
+
+      // 8) spread operator for concatenation
+      // var arr1 = [10,20,30,40];
+
+      // var arr2 = [50,60]
+
+      // var arr3 = [...arr1,...arr2]
+      // console.log(arr3)
+
+      // // 9)
+      // var arr1 = [10,20,30,40];
+
+      // var arr2 = [50,60]
+
+      // var arr3 = [2, ...arr1, ...arr2, 3]
+      // console.log(arr3)
+
+      // 10) spread operator for concat the objects
+      // var obj1 = {
+      //   name: "Dipesh"
+      // }
+
+      // var obj2 = {
+      //   age: 25
+      // }
+
+      // var obj3 = {...obj1, ...obj2}
+      // console.log(obj3)
+
+      // -----------Object literals--------------------
+
+      // 1) previously
+
+      // let name = "Dipesh";
+      // let course = "BSC. CSIT"
+
+      // var obj = {
+      //   name: name,
+      //   course: course,
+      // }
+      // console.log(obj);
+
+      //  2) After ES6
+
+      // let name = "Dipesh";
+      // let course = "BSC. CSIT";
+
+      // var obj = {
+      //   name,
+      //   course,
+      // };
+      // console.log(obj);
+
+
+      //  3) 
+
+
+    </script>
+  </head>
+  <body></body>
+</html>

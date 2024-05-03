@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      // yahoo baba(OOP-class and objects, methods)
+
+      // 1)
+
+      // class hello{
+      //     message(){             // // methods
+      //         console.log("hello everyone")
+      //     }
+      //     sorry(){              // // methods
+      //         console.log("sorry everyone")
+      //     }
+      // }
+
+      // let a = new hello();   // // objects
+
+      // a.message()
+      // a.sorry()
+
+      // -------------------------------------------
+      //    (*)Types of methods:
+      //   - constructor
+      //    - prototype
+      //    - static
+
+      // 1) constructor: automatically call hunxa
+
+      //   class student {
+      //     constructor() {
+      //       console.log("constructor function");
+      //     }
+      //   }
+      //   let a = new student();
+      //   let b = new student();
+
+      // 2)
+
+      class student {
+        constructor() {    //constructor method
+          let name;
+          console.log("constructor function");
+        }
+
+        hello(){   //prototype method
+            console.log("Hello " + this.name)
+        }
+      }
+      let a = new student();
+      a.name = "Dipesh Gyawali";
+
+    </script>
+  </head>
+  <body></body>
+</html>

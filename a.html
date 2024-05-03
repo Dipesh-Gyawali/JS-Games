@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      // yahoo baba(destructuring array, destructuring object)
+
+      //   -----------------------destructuring array--------
+
+      //   1)
+
+      //   let user = ["Dipesh", 23, "KTM"];
+
+      //   let [name, age, address] = user;
+
+      //   console.log(name);
+      //   console.log(age);
+      //   console.log(address);
+
+      //   2)
+
+      //   let user = ["Dipesh", , "KTM"];
+
+      //   let [name, age = 20, address] = user;
+
+      //   console.log(name);
+      //   console.log(age);
+      //   console.log(address);
+
+      //   3) nested array destructuring
+
+      //   let user = ["Dipesh", 23, "KTM", ["Male", 25000]];
+
+      //   let [name, age, address, [gender, salary]] = user;
+
+      //   console.log(name);
+      //   console.log(age);
+      //   console.log(address);
+      //   console.log(gender);
+      //   console.log(salary);
+
+      //   4) rest operator use gareko
+
+      //   let user = ["Dipesh", 23, "KTM"];
+
+      //   let [name, ...args ] = user;
+
+      //   console.log(name);
+
+      //   console.log(args);
+
+      //   5) function
+
+      //   function user([name, age = 20, address]) {
+      //     console.log(name);
+      //     console.log(age);
+      //     console.log(address);
+      //   }
+      //   user(["Dipesh", 23, "KTM"]);
+
+      // 6) Function
+
+      //   function user() {
+      //     return ["Dipesh", 23, "KTM"];
+      //   }
+
+      //   let [name, age, address] = user();
+
+      //   console.log(address);
+
+      //   -----------------------destructuring object--------
+
+      // 1)
+
+      // let user = {
+      //     name: "Dipesh",
+      //     age: 23,
+      //     city: "KTM"
+      // }
+
+      // let {name,age,city} = user;
+
+      // console.log(name)
+      // console.log(age)
+      // console.log(city)
+
+      // 2)
+
+      //   let user = {
+      //     name: "Dipesh",
+      //     age: 23,
+      //     city: "KTM",
+      //   };
+
+      //   let { name, city } = user;
+
+      //   console.log(name);
+      //   console.log(city);
+
+      // 3)
+
+      //   let user = {
+      //     name: "Dipesh",
+      //     age: 23,
+      //     city: "KTM",
+      //   };
+
+      //   let { name: n, age: a, city: c } = user;
+
+      //   console.log(n);
+      //   console.log(a);
+      //   console.log(c);
+    </script>
+  </head>
+  <body></body>
+</html>

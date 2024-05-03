@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: flex;
+        margin: 5rem;
+        gap: 10rem;
+      }
+      .scissor,
+      .paper,
+      .rock {
+        border: 1px solid black;
+        padding: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="scissor" id="scissor">Scissor</div>
+      <div class="paper" id="paper">Paper</div>
+      <div class="rock" id="rock">Rock</div>
+    </div>
+
+    <div class="info">
+        <p id="you">You selected: </p>
+        <p id="comp">Comp selected: </p>
+        <b id="win">PLAY GAME </b>
+    </div>
+    <br>
+    <br>
+
+    <div class="score">
+        <p id="you-score">User: 0</p>
+        <p id="comp-score">Comp: 0</p>
+
+
+    </div>
+
+    <script src="pracrockpapperscissors.js"></script>
+  </body>
+</html>
